@@ -1,0 +1,124 @@
+/* Contenedor principal */
+.configuracion-perfil-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #F5E8D3, #FFFFFF); /* Fondo con degradado suave */
+  color: #333333; /* Color del texto */
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif; /* Fuente elegante */
+}
+
+/* Título */
+h2 {
+  color: #5A3E1A; /* Color oscuro con tono cálido */
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Tarjeta de perfil */
+.perfil-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff; /* Fondo blanco */
+  padding: 30px;
+  border-radius: 15px; /* Esquinas más redondeadas */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Sombra elegante */
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #D8B38F; /* Borde cálido */
+}
+
+/* Información del perfil */
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Foto de perfil */
+.perfil-foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #D8B38F; /* Borde cálido */
+}
+
+/* Botón de editar foto */
+.btn-editar {
+  background-color: #D8B38F;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-editar:hover {
+  background-color: #c9a27e; /* Color más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Ligero aumento al pasar el mouse */
+}
+
+/* Formulario */
+.perfil-formulario {
+  width: 100%;
+}
+
+/* Campos del formulario */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #5A3E1A; /* Color de texto cálido */
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #D8B38F; /* Resalta el borde al enfocar */
+  outline: none;
+}
+
+input::placeholder {
+  color: #999999;
+}
+
+/* Botón de guardar cambios */
+.btn-guardar {
+  width: 100%;
+  padding: 12px;
+  background-color: #D8B38F;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-guardar:hover {
+  background-color: #c9a27e; 
+  transform: scale(1.05); /* Efecto de aumento */
+}

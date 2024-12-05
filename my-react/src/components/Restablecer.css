@@ -1,0 +1,60 @@
+.cont-restablecer {
+  padding: 50px;
+  background-color: #fef9f4; /* Fondo cálido */
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil en el contenedor */
+}
+
+
+
+.card h2 {
+  color: #8b5d33; /* Marrón oscuro */
+  font-family: 'Poppins', sans-serif;
+}
+
+.card p {
+  color: #5C4033; /* Texto suave */
+}
+
+.card .form-control {
+  border-color: #D8B38F; /* Borde beige */
+  color: #333; /* Color de texto */
+  font-family: 'Poppins', sans-serif;
+}
+
+.card .form-group label {
+  color: #5C4033; /* Color suave para las etiquetas */
+  font-family: 'Poppins', sans-serif;
+}
+
+.card .btn {
+  background-color: #D8B38F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 15px; /* Añadido margen superior */
+}
+
+.card .btn:hover {
+  background-color: #b08d74; /* Hover más oscuro */
+}
+
+.card .message {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+}
+
+.card .message.text-success {
+  color: #5C4033; /* Color de éxito */
+}
+
+.card .message.text-danger {
+  color: #b34a3f; /* Rojo cálido para el error */
+}

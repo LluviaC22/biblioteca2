@@ -1,0 +1,72 @@
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px; /* Ancho del menú */
+  height: 100%;
+  background-color: #ad8862; /* Color café */
+  color: #ffffff; /* Color del texto */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  font-family: 'Arial', sans-serif; /* Fuente elegante */
+}
+
+.menu-lateral.open {
+  transform: translateX(0); /* Aparece al abrirse */
+}
+
+/* Botón de cierre */
+.close-btn {
+  background: none;
+  color: #ffffff;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 10px;
+  float: right;
+}
+
+/* Lista de opciones */
+.menu-lateral ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.menu-lateral ul li {
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.menu-lateral ul li:hover {
+  background-color: #b4895e; /* Café más claro para hover */
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Estilo para enlaces */
+.menu-lateral ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+/* Ajustes adicionales para dispositivos */
+@media screen and (max-width: 768px) {
+  .menu-lateral {
+    width: 100%; /* Ocupa toda la pantalla en dispositivos pequeños */
+  }
+}
+/* Estilo general para los elementos del menú */
+.menu-item {
+  font-family: 'Arial', sans-serif; /* Cambia la tipografía */
+  font-size: 16px; /* Ajusta el tamaño */
+  color: #eeeaea; /* Color del texto */
+  cursor: pointer; /* Indica que es clickeable */
+  transition: color 0.3s ease, transform 0.3s ease; /* Efecto al pasar el mouse */
+}
+
+

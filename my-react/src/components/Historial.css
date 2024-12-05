@@ -1,0 +1,117 @@
+.historial-container {
+  background-color: #fef9f4;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.historial-title {
+  text-align: center;
+  color: #8b5d33;
+  font-family: "Poppins", sans-serif;
+}
+
+.historial-subtitle {
+  color: #8b5d33;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+.historial-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.historial-table th,
+.historial-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.historial-table th {
+  background-color: #d8b38f;
+  color: white;
+}
+
+.historial-table tbody tr {
+  border-bottom: 1px solid #e0d5c3;
+}
+
+.historial-select {
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.historial-button {
+  font-family: "Poppins", sans-serif;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.historial-button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.historial-loading,
+.historial-error {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #8b5d33;
+  margin-top: 20px;
+}
+
+.historial-error {
+  color: red;
+}
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px; /* Define el ancho máximo del modal */
+  width: 90%; /* Ajusta el ancho al 90% de la pantalla, pero no excede max-width */
+  box-sizing: border-box; /* Asegura que padding no incremente el ancho */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ce9f6f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #cf9c68;
+}

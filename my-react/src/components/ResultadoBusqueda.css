@@ -1,0 +1,99 @@
+/* General Container */
+.resultado-bus-container {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+  margin-bottom: 90px; 
+  text-align: center;
+  font-family: 'Poppins', Arial, sans-serif; /* Tipografía moderna */
+}
+
+/* Title */
+.resultado-title {
+  font-size: 26px;
+  color: #5C4033;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Table */
+.resultado-table {
+  width: 90%; /* Más espacio horizontal */
+  margin: 0 auto;
+  border-collapse: collapse; /* Cambiado a collapse para líneas entre celdas */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0; /* Añadido borde a la tabla */
+}
+
+/* Header cells */
+.resultado-table th {
+  padding: 15px;
+  background-color: #D8B38F; /* Color más cálido */
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #e0e0e0; /* Borde entre celdas del encabezado */
+}
+
+/* Body cells */
+.resultado-table td {
+  padding: 12px;
+  background-color: #F7F5F4; /* Fondo claro */
+  font-size: 14px;
+  color: #333;
+  border-top: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0; /* Borde derecho entre celdas */
+  text-align: center;
+}
+
+/* Row hover effect */
+.resultado-table tr:hover {
+  background-color: #F3EDE7; /* Suave cambio en hover */
+  transition: background-color 0.3s ease;
+}
+
+/* Botones */
+.btn-reservar,
+.btn-prestar {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px auto; /* Alineado al centro */
+  border-radius: 6px;
+  background-color: #B58863;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: block; /* Asegura que el botón sea un bloque y se centre */
+}
+
+/* Ajustes responsivos */
+@media screen and (max-width: 768px) {
+  .resultado-bus-container {
+    padding: 15px;
+  }
+
+  .resultado-title {
+    font-size: 22px;
+  }
+
+  .resultado-table th,
+  .resultado-table td {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}

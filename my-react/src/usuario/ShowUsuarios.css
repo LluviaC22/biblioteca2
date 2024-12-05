@@ -1,0 +1,111 @@
+.vista-usuarios-container {
+    padding: 20px;
+    background-color: #fef9f4; 
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn-crear-usuario {
+    background-color: #D8B38F; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; 
+    text-decoration: none;
+}
+
+.btn-crear-usuario:hover {
+    background-color: #b08d74; 
+}
+
+.table-usuarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.table-usuarios th, .table-usuarios td {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #e0d5c3; 
+}
+
+.table-usuarios th {
+    background-color: #D8B38F; 
+    color: white;
+    font-weight: bold;
+}
+
+.table-usuarios tr:nth-child(even) {
+    background-color: #f6ebe1; 
+}
+
+.table-usuarios tr:hover {
+    background-color: #eedbc7;
+}
+
+.table-usuarios td {
+    text-align: center; 
+    vertical-align: middle; 
+}
+.table-usuarios td:last-child {
+    position: relative; 
+}
+/* Contenedor para los botones de editar y eliminar */
+.boton-group {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 100%;
+    gap: 10px; 
+}
+
+
+/* Estilo para los botones */
+.boton-editar, .boton-eliminar {
+    padding: 8px 12px; 
+    font-size: 14px; 
+    border-radius: 5px; 
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto; 
+    text-align: center; 
+    margin: 0;
+}
+
+/* Estilo para el botón Editar */
+.boton-editar {
+    background-color: #D8B38F; 
+    color: white;
+    border: none;
+}
+
+.boton-editar:hover {
+    background-color: #b08d74; 
+}
+
+
+.boton-eliminar {
+    background-color: #b34a3f; 
+    color: white;
+    border: none;
+}
+
+.boton-eliminar:hover {
+    background-color: #99372e; 
+}

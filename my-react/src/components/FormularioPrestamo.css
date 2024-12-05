@@ -1,0 +1,105 @@
+/* Contenedor principal con fondo rosa y sombra */
+.form-prestamo {
+  width: 70%; /* Hace que ocupe el 90% del contenedor o pantalla */
+  max-width: 800px; /* Establece un máximo para evitar que el formulario sea demasiado grande */
+  margin: 40px auto;
+  background-color: #fef9f4; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Título centrado con color marrón */
+h2 {
+  text-align: center;
+  color: #8b5d33; /* Color marrón */
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Espaciado entre los elementos del formulario */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Estilo de las etiquetas */
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color: #8b5d33; /* Color marrón */
+  font-weight: 600;
+}
+
+/* Estilo de los inputs */
+input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  border: 1px solid #e0d5c3; /* Borde suave color crema */
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+/* Cambiar el borde al enfocar los inputs */
+input[type="text"]:focus,
+input[type="date"]:focus {
+  border-color: #D8B38F; /* Borde dorado suave */
+  outline: none;
+}
+
+/* Estilo del botón */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #D8B38F; /* Fondo dorado suave */
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Efecto hover sobre el botón */
+button:hover {
+  background-color: #b08d74; /* Color más oscuro al pasar el mouse */
+}
+
+/* Efecto al hacer clic sobre el botón */
+button:active {
+  background-color: #D8B38F; /* Color original al hacer clic */
+}
+
+/* Estilo del mensaje de éxito de la reserva */
+.reservation-success {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Estilo del mensaje en éxito */
+.reservation-success p {
+  color: green;
+}
+
+/* Estilo del botón de generar PDF */
+.generate-pdf {
+  padding: 12px 20px;
+  background-color: #D8B38F;
+  color: #fff;
+  border: 1px solid #D8B38F;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+/* Efecto hover sobre el botón de generar PDF */
+.generate-pdf:hover {
+  background-color: #b08d74;
+}

@@ -1,0 +1,117 @@
+.vista-libros-container {
+  padding: 20px;
+  background-color: #fef9f4; 
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  color: #8b5d33; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-crear-libro {
+  background-color: #D8B38F; 
+  color: white;
+  border: none;
+  padding: 9px 18px; 
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 80px; 
+  text-decoration: none; 
+}
+
+.btn-crear-libro:hover {
+  background-color: #b08d74; 
+}
+
+.table-libros {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.table-libros th, .table-libros td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #e0d5c3; 
+}
+
+.table-libros th {
+  background-color: #D8B38F; 
+  color: white;
+}
+
+.table-libros tr:nth-child(even) {
+  background-color: #f6ebe1;
+}
+
+.table-libros tr:hover {
+  background-color: #eedbc7; 
+}
+
+/* Contenedor para los botones de editar y eliminar */
+.btn-group {
+  display: flex;
+  gap: 5px; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+/* Estilo para el botón de editar */
+.editar-btn {
+  background-color: #D8B38F;
+  color: white;
+  border: none;
+  padding: 8px 12px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center; 
+  text-align: center; 
+  margin: 0;
+  width: auto;
+}
+
+/* Hover del botón de editar */
+.editar-btn:hover {
+  background-color: #b08d74;
+}
+
+/* Estilo para el botón de eliminar */
+.eliminar-btn {
+  background-color: #b34a3f; 
+  color: white;
+  border: none;
+  padding: 8px 12px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center; 
+  text-align: center; 
+  margin: 0;
+  width: auto;
+}
+
+/* Hover del botón de eliminar */
+.eliminar-btn:hover {
+  background-color: #99372e;
+}

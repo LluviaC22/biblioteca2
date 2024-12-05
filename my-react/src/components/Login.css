@@ -1,0 +1,142 @@
+.login-wrapper {
+  margin-top: 50px; /* Espacio debajo del navbar */
+  margin-bottom: 50px; /* Espacio encima del footer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 100px); /* Ajuste del alto */
+  background-color: #FFFFFF;
+}
+
+/* Contenedor de login */
+.login-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+  transform: scale(1.03);
+}
+
+.Titulo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8rem;
+  color: #8b5d33; 
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Estilo para la imagen del logo */
+.logo-image {
+  width: 100px; 
+  margin: 15px auto; /* Espaciado y centrado */
+  display: block; /* Centrado en el contenedor */
+  border-radius: 50%; /* Redondea los bordes para un efecto circular */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Formulario */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Estilo de los inputs */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9; 
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #D8B38F;
+  box-shadow: 0 0 4px rgba(216, 179, 143, 0.3);
+}
+
+/* Botones */
+.Loginboton {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Loginboton {
+  background-color: #D8B38F; /* Color principal */
+  color: #fff;
+}
+
+.Loginboton:hover {
+  background-color: #b39173;
+  transform: translateY(-2px);
+}
+
+.Loginboton-secondary {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.Loginboton-secondary:hover {
+  background-color: #ccc;
+  transform: translateY(-2px);
+}
+
+/* Mensaje de error */
+.message {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #e74c3c; /* Color rojo para mensaje de error */
+  font-weight: bold;
+}
+/* Estilos para los enlaces de la contraseña y registro */
+.Link-contraseña,
+.Link-registro {
+  font-size: 14px; /* Tamaño de letra */
+  color: #413e3c; /* Color inicial de los enlaces */
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Estilo para los enlaces cuando están en hover */
+.Link-contraseña a,
+.Link-registro a {
+  color: #7a634c; /* Color del enlace */
+  text-decoration: none; /* Eliminar subrayado */
+  font-weight: bold; /* Negrita para resaltar */
+  transition: color 0.3s ease, transform 0.2s ease; /* Transición suave */
+}
+
+/* Efecto hover para los enlaces */
+.Link-contraseña a:hover,
+.Link-registro a:hover {
+  color: #D8B38F; /* Cambia el color a un tono dorado */
+  text-decoration: underline; /* Subraya el texto en hover */
+  transform: translateY(-2px); /* Efecto de desplazamiento hacia arriba */
+}
+
+/* Efecto focus para los enlaces */
+.Link-contraseña a:focus,
+.Link-registro a:focus {
+  outline: none; /* Elimina el borde de enfoque predeterminado */
+  color: #D8B38F; /* Cambia el color en el enfoque */
+  text-decoration: underline; /* Subraya el texto al hacer foco */
+}

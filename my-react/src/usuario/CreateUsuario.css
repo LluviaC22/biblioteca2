@@ -1,0 +1,94 @@
+
+.alert-danger {
+    color: red;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+
+
+
+/* Estilo general del contenedor */
+.container {
+    background-color: #fef9f4;
+    padding: 50px;
+    max-width: 900px;
+    margin: 60px auto;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Título */
+h3 {
+    text-align: center;
+    color: #8b5d33;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+/* Estilo para los labels */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #8b5d33;
+}
+
+/* Estilo de los inputs y select */
+input.form-control{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.seleccion{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Efecto al pasar el cursor sobre los inputs y select */
+input.form-control:focus,
+select.form-control:focus {
+    border-color: #cc9c66;
+    outline: none;
+}
+
+/* Botón de enviar */
+button.btn {
+    margin-top: 40px;
+    padding: 15px 30px;
+    border: none;
+    background-color: #D8B38F;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Efecto de hover en el botón */
+button.btn:hover {
+    background-color: #bc9761;
+}
+
+/* Estilo para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Espaciado entre los campos */
+.mb-3 {
+    margin-bottom: 15px;
+}

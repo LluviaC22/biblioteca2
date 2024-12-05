@@ -1,0 +1,82 @@
+html, body {
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; 
+}
+
+main {
+  flex: 1; 
+}
+
+footer {
+  background-color: #bb9168;
+  color: #fff;
+  padding: 10px 5px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-top: 3px solid #B97F5A;
+  font-size: 11px;
+  position: relative;
+  margin-top: auto; 
+  min-height: 20px;
+}
+
+footer div {
+  flex: 1;
+  padding: 10px;
+  max-width: 300px;
+}
+
+footer h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+}
+
+footer p {
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+}
+
+footer i {
+  margin-right: 8px;
+  font-size: 12px;
+  color: #fff;
+}
+
+footer span {
+  color: #fff;
+}
+
+/* Medias para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer div {
+    max-width: 100%;
+    padding: 5px;
+  }
+
+  footer h3 {
+    font-size: 12px;
+  }
+
+  footer i {
+    font-size: 14px;
+  }
+}

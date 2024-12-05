@@ -1,0 +1,232 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/* Navbar principal */
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ad8862;
+  padding: 25px 20px;
+  border-bottom: 2px solid #f3f2f280;
+  box-shadow: 0 8px 16px #f7e4d180;
+  position: relative;
+  width: 100%;
+}
+
+/* Contenedor sin padding extra */
+.custom-navbar .container-fluid {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+/* Título del Navbar */
+.navbar-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 1.8rem;
+  white-space: nowrap;
+  margin-right: 50px; /* Ajusta el margen para separarlo del borde */
+  display: flex;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px; /* Espacio entre los enlaces de navegación */
+  margin-left: auto; /* Alineación a la derecha */
+}
+
+.navbar-links a {
+  color: #f7e8d1;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: white;
+}
+
+/* Estilo del logo */
+.profile-logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Título del Navbar */
+.navbar-brand-title {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 1.8rem;
+  margin-left: 10px;
+}
+
+/* Texto de perfil */
+.profile-text {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  transition: transform 0.3s;
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-link {
+  color: #f7e8d1 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover, 
+.nav-link.active {
+  color: #ffffff !important;
+}
+
+/* Botón de hamburguesa */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #D8B38F; /* Igual al color del navbar principal */
+    padding: 1rem;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .profile-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* Responsividad */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ad8862;
+    padding: 1rem;
+    z-index: 1000;
+  }
+
+  .profile {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand-title {
+    font-size: 1.5rem;
+  }
+
+  .profile-logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .profile-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand-title {
+    font-size: 1.3rem;
+  }
+
+  .profile-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .profile-logo {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #6B4423;
+  color: white;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar-content h4 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #D8B38F;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  background-color: #A0522D;
+}
